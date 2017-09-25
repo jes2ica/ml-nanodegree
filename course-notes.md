@@ -6,7 +6,11 @@
   accuracy_score (y_true, y_pred)
   ```
 - Precision
-  - How many did we classify correctly?
 - Recall
 - F1 Score
 
+### Detecting Errors
+- Type of Errors
+  - Underfitting: Bad on training set; Bad on testing set. 
+  - Overfitting: Good on training set; Bad on testing set. 
+- Cross Validation
