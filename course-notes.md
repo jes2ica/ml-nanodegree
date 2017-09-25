@@ -1,3 +1,4 @@
+## Machine Learning Foundations
 ### Evaluation Metrics
 - Confusion Matrix
 - Accuracy
@@ -14,3 +15,5 @@
   - Underfitting: Bad on training set; Bad on testing set. 
   - Overfitting: Good on training set; Bad on testing set. 
 - Cross Validation
+
+## Supervised Learning
