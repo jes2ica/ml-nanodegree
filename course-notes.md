@@ -23,3 +23,5 @@
   - maliciously: being gien bad data
   - transcription error
   - unmodeled influences
+## Cross Validation
+- Use a model that is complex enough to fit the data without causing problems on the test set.
