@@ -17,3 +17,9 @@
 - Cross Validation
 
 ## Supervised Learning
+### Errors
+- Training data has errors, not modeling f, but f + e:
+  - sensor error
+  - maliciously: being gien bad data
+  - transcription error
+  - unmodeled influences
