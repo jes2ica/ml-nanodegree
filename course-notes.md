@@ -36,3 +36,9 @@
 - linear, polynomial regression
 - best constant in terms of squared error! mean
 - representation for regression
+
+## More Regressions
+- Parametric regression
+- K nearest neighbor (KNN)
+- Kernal regression (consider weight)
+> Is polynomial regression still linear? Yes - the space of polynomials is linear in coefficients.
