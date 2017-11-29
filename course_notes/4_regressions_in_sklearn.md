@@ -7,3 +7,4 @@
 - R squared
   - "How much of my change in the output (y) is explained by the change in my input (x)."
   - 0.0 < r^2 < 1.0 (line does a good job!)
+- Multi-variate regression
