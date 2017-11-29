@@ -1,4 +1,4 @@
-# ml-nanodegree
+# Udacity Machine Learning Engineer Nanodegree
 Projects & notes for Udacity Machine Learning Engineer Nanodegree Program.
 
 ## Projects
