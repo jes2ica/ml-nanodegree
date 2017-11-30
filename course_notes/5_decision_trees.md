@@ -2,3 +2,12 @@
 - Supervised Learning
   - Classification: Output is discrete.
   - Regression: Output is continuous.
+- Classification Learning
+  - Instances: input
+  - Concept: function -> true / false
+  - Target Concept: answer
+  - Hypothesis class: all functions
+  - Sample: training set
+  - Candidate: concept == target concept
+  - Testing set
+- Decision Trees
