@@ -11,3 +11,4 @@
   - Candidate: concept == target concept
   - Testing set
 - Decision Trees
+  - Expressiveness: AND, OR, XOR
