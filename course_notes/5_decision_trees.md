@@ -12,3 +12,29 @@
   - Testing set
 - Decision Trees
   - Expressiveness: AND, OR, XOR
+- ID3
+  - Loop: 
+    - A <- best attribute (max gain: p(v) log p(v))
+    - Assign A as decision attribute
+    - For each value of A, create a descendent of node
+    - Sort training examples to leaves
+    - If examples perfectly clssified, stop
+    - Else, iterate over leavers
+  - Bias:
+    - Restriction Bias: H
+    - Preference Bias: h ∈ H <-> Inductive Bias
+      - Good Split At Top
+      - Correct Over Incorrect
+      - Shorter Trees 
+- Other Considerations
+  - Continuous Attribute
+    - e.g. Age, Weight, Distance
+  - Does it make sense to repeat an attribute along a path in the tree?
+  - When do we stop?
+    - Everything classified correctly!
+    - No more attributes!
+    - No overfitting
+    - Pruning, Output: Vote
+  - Regression
+    - Splitting, Variance
+    - Output: average, local, linear fit
