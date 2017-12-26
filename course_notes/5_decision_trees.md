@@ -1,7 +1,4 @@
 ## Decision Trees
-
-
-
 - Supervised Learning
   - Classification: Output is discrete.
   - Regression: Output is continuous.
@@ -42,6 +39,7 @@
     - Splitting, Variance
     - Output: average, local, linear fit
 - Entropy
-  - ![equation](http://latex.codecogs.com/gif.latex?entropy=\sum_{i}-p_i\log_2(p_i))
+  
+  > ![equation](http://latex.codecogs.com/gif.latex?entropy=\sum_{i}-p_i\log_2(p_i))
   - Controls how a DT decides where to split the data
   - Definition: measure of impurity in a bunch of examples
