@@ -8,3 +8,6 @@
 - Information Gain
   - Information Gain = entropy (parent) - (weighted average) * entropy (children)
   - Decision tree algorithm: maximize information gain
+- Weakness
+  - Overfitting
+  
