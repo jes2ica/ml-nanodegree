@@ -66,5 +66,5 @@
 	- Perceptrons: threshold unit
 	- Networks can produce any boolean function.
 	- Perception rule - finite time for linearly seperable
-	- general differentiable rule - back propogation & gradient descent
-	- preference / restriction bias of neural networks
+	- General differentiable rule - back propogation & gradient descent
+	- Preference / restriction bias of neural networks
