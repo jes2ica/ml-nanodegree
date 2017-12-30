@@ -27,3 +27,13 @@
 - Neural Network
   - Backpropagation: Computationally beneficial organization of the chain rule.
   - Many local optima
+  - Optimizing weights
+    - Gradient descent
+    - Advanced methods
+      - momentum
+      - higher order derivatives
+      - randomized optimization
+      - penalty for "complexity"
+        - regression "overfitting"
+        - large tree "overfitting"
+        
