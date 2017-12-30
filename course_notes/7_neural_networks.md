@@ -36,4 +36,35 @@
       - penalty for "complexity"
         - regression "overfitting"
         - large tree "overfitting"
-        
+			- more nodes
+			- more layers
+			- large numbers
+			
+- Restriction bias (able to represent)
+	- Representational power
+	- Set at hypotheses we will consider
+	- Perceptron: half spaces 
+	- Sigmoid: much more complex not much restriction
+	- Functions
+		- Boolean: network of threshold-like units
+		- Continuous: "connected" no jumps - hidden
+		- Arbitrary: stitch together - two hidden
+	- Danger of overfitting!
+		- Cross validation
+
+- Preference bias
+	- Algotirhm's selection of one representation over another
+	- What algortihm?
+		- Gradient Descent!
+		- Initial Weights!
+			- Small random values (local minimal, variability)
+			- Low "complexity"
+			- Simpler explanations
+		- Occam's razor: Entities should not be multipled unnecessarily
+
+- Summary
+	- Perceptrons: threshold unit
+	- Networks can produce any boolean function.
+	- Perception rule - finite time for linearly seperable
+	- general differentiable rule - back propogation & gradient descent
+	- preference / restriction bias of neural networks
