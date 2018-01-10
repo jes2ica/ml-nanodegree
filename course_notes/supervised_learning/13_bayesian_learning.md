@@ -4,5 +4,11 @@
 - argmax h ∈ H Pr(h|D)
 - Bayes Rule: P(h|D) = P(D|h) * P(h) / P(D)
   - P(D): Prior at the data
+  - P(h): Prior on h - domain knowledge
   - P(D|h): Data given the hypothesis
   - D = {(x_i, d_i)}
+- Bayesian Learning
+  - For each h ∈ H, calculate Pr(h|D) = P(D|h) * P(h) [/ P(D)]
+    - Output: 
+      - h_map = argmax_h Pr(h|D), map = maximum a posterion
+      - h_ml = argmax_h Pr(D|h), ml = maximum likelihood => Not Practical
