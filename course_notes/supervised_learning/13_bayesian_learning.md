@@ -12,3 +12,7 @@
     - Output: 
       - h_map = argmax_h Pr(h|D), map = maximum a posterion
       - h_ml = argmax_h Pr(D|h), ml = maximum likelihood => Not Practical
+- Bayesian Learning in Action
+  - Given {<x_i, d_i>} as noise-free examples
+  - c ∈ H
+  - uniform prior
