@@ -10,9 +10,18 @@
 - Bayesian Learning
   - For each h ∈ H, calculate Pr(h|D) = P(D|h) * P(h) [/ P(D)]
     - Output: 
-      - h_map = argmax_h Pr(h|D), map = maximum a posterion
+      - h_map = argmax_h Pr(h|D), map = maximum a posterion 
+        - Hypothesis that best fits the data
       - h_ml = argmax_h Pr(D|h), ml = maximum likelihood => Not Practical
+        - Hypothesis that decribes the data best
 - Bayesian Learning in Action
   - Given {<x_i, d_i>} as noise-free examples
   - c ∈ H
   - uniform prior
+- Summary
+  - Bayes Rule! 
+  - Swap "causes" and "effects" Pr(h|D) ~ Pr(D|h) P(h)
+  - Priors matter
+  - h_map, h_ml
+  - derived rules we've used
+  - voting h -> Bayes optimal classifier 
