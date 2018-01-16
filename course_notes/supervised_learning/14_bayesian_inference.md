@@ -1,0 +1,43 @@
+### Bayesian Inference
+- Representing and reasoning with probabilities.
+- Joint Distribution
+- Conditional Independence
+  - Define: X is conditionally independent of Y given Z, if the probability distribution governing X 
+  is independent of the value of Y given the value of Z; 
+  - That is, if for all x, y, z, P(X = x|Y = y, Z = z) = P(X = x|Z = z). More compactly, we write P(x|y,z) = P(x|z)
+- Belief Networks
+  - (Bayes Nets, Bayesian Networks, Graphical Models...)
+- Why Sampling?
+  - two things distributions are for 
+    - probability of value
+    - generate values
+  - simulation of a complex process
+  - approximate inference -> machine
+  - visualization - get a feel -> human
+
+- Inference Rules
+  - Marginalization: P(x) = Σ P(x, y)
+  - Chain Rule: P(x, y) = P(x)P(y|x)
+  - Bayes Rule: P(y|x) = P(x|y)P(y) / P(x)
+  - ![img](http://www.clipular.com/c/5781996088590336.png?k=ep9orHjJ5SzjmwnS4_j8vW1Mitg)
+
+- Why Naive Bayes is Cool
+  - Inference is cheap
+  - Few parameters
+  - Estimate parameters with labeled data
+    - P(a_i|v) = #a_i, v / #v
+    - One unseen attribute spoils the whole bunch
+    - "Smooth" -> inductive bias
+  - Connect inference and classification
+  - Empirically successful
+    - NO FREE LUNCH!!
+    - Does it model interrelationships between attributes (ordering preserved)
+- Summary
+  - Bayes Networks representations of just distributing 
+  - Examples of using networks to compute posibilities
+  - Sampling as a way to do approximate inference
+  - In general, hard to do exact inference
+  - Naive Bayes - link to classification
+    - tractable
+    - goldstandard
+    - inference in any direction (missing attributs)
