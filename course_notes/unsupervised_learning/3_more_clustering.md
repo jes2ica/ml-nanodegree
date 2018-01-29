@@ -1,3 +1,5 @@
+### More Clustering
+
 - Single Linkage Clustering (SLC)
   - Consider each object a cluster.
   - Define intercluster distance as the distance between the closest two points in the two clusters.
