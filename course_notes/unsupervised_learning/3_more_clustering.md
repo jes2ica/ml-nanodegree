@@ -15,12 +15,13 @@
     - Repeat n times
   - Task:
     - Find a hypothesis h = <u1, u2, ... uk> that maximizes the probability of the data (ML).
-- Propoties of EM
+- Propoties of Expectation Maximization(EM)
   - Monotonically non-decreasing likelihood.
   - Does not converge (partially does).
   - Will not diverge.
   - Can get stuck. => random restart.
   - Works with any distribution (if E, M solvable).
+  - "Expectation Maximization is similar to K-Means, except the samples have a probability of belonging to each cluster, and we update the cluster assignment probabilities iteratively each round".
 - Clustering properties
   - Richness
   - Scale-invariance
