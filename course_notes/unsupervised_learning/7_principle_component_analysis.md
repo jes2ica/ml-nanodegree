@@ -12,4 +12,13 @@
   - more variance of data along a PC, higher that PC is ranked
   - most variance / most information -> first PC; second most variance (without overlapping with the first PC) -> second PC
   - max no. of PCs = no. of input features
+- When to use PCA
+  - latent features driving the patterns in the data 
+  - dimentionality reduction
+    - visualize high-dimensional data
+    - reduce noise
+    - make other algorithms (regression, classification) work better b/c fewer inputs (eigenfaces)
+- PCA for Ficial Recognition
+  - Pictures of faces generally have high input dimensionality (many pixels)
+  - faces have general patterns that could be captured in a smaller number of dimensions
   
