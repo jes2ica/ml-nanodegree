@@ -21,4 +21,5 @@
 - PCA for Ficial Recognition
   - Pictures of faces generally have high input dimensionality (many pixels)
   - faces have general patterns that could be captured in a smaller number of dimensions
+- Select a number of priciple components: train on different numbers of components.
   
