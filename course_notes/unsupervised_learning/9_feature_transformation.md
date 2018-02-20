@@ -17,7 +17,23 @@ while retaining as much as (relevant / useful) information as possible.
 - PCA vs ICA
 
   | PCA        | ICA           |
-  | ------------- |:-------------:|
+  |:-------------:|:-------------:|
   | mutually orthogonal       | mutually independent |
   | maximal variance      | maximal mutual information |
   | ordered features | bag of features |
+  
+  || PCA        | ICA           |
+  |:-------------:|:-------------:|:-------------:|
+  | blind source seperation | No | Yes |
+  | directional      | No | Yes |
+  | faces | brightness, average face | nose, mouth.. |
+  | natural scences |  | edges |
+  | documents |  | topics |
+
+- Alternatives
+  - RCA = Random Component Analysis
+    - Generates random directions => works for classification
+    - Advantages: fast
+  - LDA = Linear Discriminant Analysis
+    - Finds a projection that descriminants based on the label
+    
