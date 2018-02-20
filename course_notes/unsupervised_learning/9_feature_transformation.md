@@ -36,4 +36,8 @@ while retaining as much as (relevant / useful) information as possible.
     - Advantages: fast
   - LDA = Linear Discriminant Analysis
     - Finds a projection that descriminants based on the label
-    
+- Summary
+  - A is for analysis! PCA, ICA, LDA, RCA
+  - relations between different transformation
+  - analysis of the data -> structure
+  - probability vs linear algebra
