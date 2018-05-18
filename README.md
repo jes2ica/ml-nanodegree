@@ -8,4 +8,6 @@ Projects & notes for Udacity Machine Learning Engineer Nanodegree Program.
 - [Creating Customer Segments](https://github.com/jes2ica/ml-customer_segments)
 
 ## Notes
-- [Lesson 1: Machine learning foundations](https://github.com/jes2ica/ml-nanodegree/blob/master/course_notes/1_machine_learning_foundations.md)
+- [Supervised Learning](https://github.com/jes2ica/ml-nanodegree/tree/master/course_notes/supervised_learning)
+- [Unsupervised Learning](https://github.com/jes2ica/ml-nanodegree/tree/master/course_notes/unsupervised_learning)
+- [Reinforcement Learning](https://github.com/jes2ica/ml-nanodegree/tree/master/course_notes/reinforcement_learning)
