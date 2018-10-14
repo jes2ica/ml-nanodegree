@@ -7,6 +7,7 @@ Projects & notes for Udacity Machine Learning Engineer Nanodegree Program.
 - [Finding donors for CharityML](https://github.com/jes2ica/ml-finding_donors)
 - [Creating Customer Segments](https://github.com/jes2ica/ml-customer_segments)
 - [Train a Smartcab How to Drive](https://github.com/jes2ica/ml-smartcab)
+- [Dog Breed Classifier](https://github.com/jes2ica/ml-cnn)
 
 ## Notes
 - [Supervised Learning](https://github.com/jes2ica/ml-nanodegree/tree/master/course_notes/supervised_learning)
